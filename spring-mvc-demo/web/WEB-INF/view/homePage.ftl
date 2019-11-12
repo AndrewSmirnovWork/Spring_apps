@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Main menu</title>
+    <title>Home Page</title>
 </head>
 <body>
 <h2>Spring MVC demo - Home Page</h2>
