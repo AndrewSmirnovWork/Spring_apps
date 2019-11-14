@@ -8,6 +8,8 @@ public class User {
     private String country;
 
     private LinkedHashMap<String, String> countryList;
+    private String[] operatingSystems;
+    private String favoriteLanguage;
 
 
     public User() {
@@ -17,6 +19,22 @@ public class User {
         countryList.put("FR", "France");
         countryList.put("RU", "Russia");
         countryList.put("USA", "USA");
+    }
+
+    public String[] getOperatingSystems() {
+        return operatingSystems;
+    }
+
+    public void setOperatingSystems(String[] operatingSystems) {
+        this.operatingSystems = operatingSystems;
+    }
+
+    public String getFavoriteLanguage() {
+        return favoriteLanguage;
+    }
+
+    public void setFavoriteLanguage(String favoriteLanguage) {
+        this.favoriteLanguage = favoriteLanguage;
     }
 
     public String getCountry() {
