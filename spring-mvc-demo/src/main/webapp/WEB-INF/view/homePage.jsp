@@ -6,7 +6,8 @@
 <body>
 <h2>Spring MVC demo - Home Page</h2>
 <hr>
-<hr/>
+<a href="/user/showForm">User form</a>
+<br/>
 <a href="/">back</a>
 </body>
 </html>
