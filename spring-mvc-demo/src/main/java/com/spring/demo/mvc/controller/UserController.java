@@ -12,8 +12,7 @@ public class UserController {
 
     @RequestMapping("/showForm")
     public String showForm(Model model) {
-        User theUser = new User();
-        model.addAttribute("user", theUser);
+        model.addAttribute("user", new User());
         return "userForm";
     }
 

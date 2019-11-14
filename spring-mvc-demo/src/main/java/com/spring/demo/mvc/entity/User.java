@@ -3,6 +3,7 @@ package com.spring.demo.mvc.entity;
 import java.util.LinkedHashMap;
 
 public class User {
+
     private String lastName;
     private String firstName;
     private String country;
