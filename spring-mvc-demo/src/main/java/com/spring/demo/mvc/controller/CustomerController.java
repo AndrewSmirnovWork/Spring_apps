@@ -16,6 +16,8 @@ import javax.validation.Valid;
 @RequestMapping("/customer")
 public class CustomerController {
 
+
+
     @RequestMapping("/showForm")
     public String customerForm(Model model) {
         model.addAttribute("customer", new Customer());
@@ -25,10 +27,12 @@ public class CustomerController {
     @RequestMapping("/processForm")
     public String processForm(@Valid @ModelAttribute("customer") Customer customer,
                               BindingResult bindingResult) {
+        System.out.println(bindingResult+"\n");
         if (bindingResult.hasErrors()) {
             return "customerForm";
-        } else return "customerConfimration";
+        } else return "customerConfirmation";
     }
+
     //PreProcess every String Data
     //Remove leading and trailing white space
     //If string only has white space...trim it to null
