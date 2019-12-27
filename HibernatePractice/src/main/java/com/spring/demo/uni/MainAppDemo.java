@@ -1,33 +1,35 @@
-package com.spring.demo.oneToOne;
+package com.spring.demo.uni;
 
+import com.spring.demo.uni.Instructor;
+import com.spring.demo.uni.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class MainAppDemoOneToOne {
+public class MainAppDemo {
     public static void main(String[] args) {
 
         SessionFactory sessionFactory = new Configuration()
                 .configure("hibernate.cfg.xml")
-                .addAnnotatedClass(InstructorOneToOne.class)
-                .addAnnotatedClass(InstructorDetailOneToOne.class)
+                .addAnnotatedClass(Instructor.class)
+                .addAnnotatedClass(InstructorDetail.class)
                 .buildSessionFactory();
         Session session = sessionFactory.getCurrentSession();
 
         try {
 
             //create objects
-            InstructorOneToOne instructorOneToOne =
-                    new InstructorOneToOne("Andrew3", "Smirnov3", "heregoesemai3");
-            InstructorDetailOneToOne instructorDetailOneToOne =
-                    new InstructorDetailOneToOne("youbube-sucks3", "hobbyHere3");
+            Instructor instructor =
+                    new Instructor("Andrew2", "Smirnov2", "heregoesemail2");
+            InstructorDetail instructorDetail =
+                    new InstructorDetail("youbube-sucks2", "hobbyHere2");
 
             session.beginTransaction();
             //associate objects
-            instructorOneToOne.setInstructorDetailOneToOne(instructorDetailOneToOne);
+            instructor.setInstructorDetail(instructorDetail);
 
             //save the transaction
-            session.save(instructorOneToOne);
+            session.save(instructor);
 
             //how to delete object
             /**

@@ -1,10 +1,10 @@
-package com.spring.demo.oneToOne;
+package com.spring.demo.uni;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "instructor_detail")
-public class InstructorDetailOneToOne {
+public class InstructorDetail {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,21 +17,10 @@ public class InstructorDetailOneToOne {
     @Column(name = "hobby")
     private String hobby;
 
-    @OneToOne(mappedBy = "instructorDetailOneToOne", cascade = CascadeType.ALL)
-    private InstructorOneToOne instructorOneToOne;
-
-    public InstructorDetailOneToOne() {
+    public InstructorDetail() {
     }
 
-    public InstructorOneToOne getInstructorOneToOne() {
-        return instructorOneToOne;
-    }
-
-    public void setInstructorOneToOne(InstructorOneToOne instructorOneToOne) {
-        this.instructorOneToOne = instructorOneToOne;
-    }
-
-    public InstructorDetailOneToOne(String youtubeChannel, String hobby) {
+    public InstructorDetail(String youtubeChannel, String hobby) {
         this.youtubeChannel = youtubeChannel;
         this.hobby = hobby;
     }
@@ -58,14 +47,5 @@ public class InstructorDetailOneToOne {
 
     public void setHobby(String hobby) {
         this.hobby = hobby;
-    }
-
-    @Override
-    public String toString() {
-        return "InstructorDetailOneToOne{" +
-                "id=" + id +
-                ", youtubeChannel='" + youtubeChannel + '\'' +
-                ", hobby='" + hobby + '\'' +
-                '}';
     }
 }

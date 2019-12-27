@@ -1,10 +1,12 @@
-package com.spring.demo.oneToOne;
+package com.spring.demo.oneToMany;
+
+import com.spring.demo.oneToOne.InstructorOneToOne;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "instructor_detail")
-public class InstructorDetailOneToOne {
+public class InstructorDetailManyToOne {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,21 +19,21 @@ public class InstructorDetailOneToOne {
     @Column(name = "hobby")
     private String hobby;
 
-    @OneToOne(mappedBy = "instructorDetailOneToOne", cascade = CascadeType.ALL)
-    private InstructorOneToOne instructorOneToOne;
+    @OneToOne(mappedBy = "instructorDetailManyToOne", cascade = CascadeType.ALL)
+    private InstructorManyToOne instructorManyToOne;
 
-    public InstructorDetailOneToOne() {
+    public InstructorDetailManyToOne() {
     }
 
-    public InstructorOneToOne getInstructorOneToOne() {
-        return instructorOneToOne;
+    public InstructorManyToOne getInstructorManyToOne() {
+        return instructorManyToOne;
     }
 
-    public void setInstructorOneToOne(InstructorOneToOne instructorOneToOne) {
-        this.instructorOneToOne = instructorOneToOne;
+    public void setInstructorManyToOne(InstructorManyToOne instructorManyToOne) {
+        this.instructorManyToOne = instructorManyToOne;
     }
 
-    public InstructorDetailOneToOne(String youtubeChannel, String hobby) {
+    public InstructorDetailManyToOne(String youtubeChannel, String hobby) {
         this.youtubeChannel = youtubeChannel;
         this.hobby = hobby;
     }
@@ -62,7 +64,7 @@ public class InstructorDetailOneToOne {
 
     @Override
     public String toString() {
-        return "InstructorDetailOneToOne{" +
+        return "InstructorDetailManyToOne{" +
                 "id=" + id +
                 ", youtubeChannel='" + youtubeChannel + '\'' +
                 ", hobby='" + hobby + '\'' +

@@ -1,61 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/MainAppDemoOneToMany.java" line="9" mnemonic="0" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0302a911-ef2e-4551-a101-d3f4009afeb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernatePractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorDetailOneToOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorOneToOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/MainAppDemoOneToOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/uni/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/HibernatePractice/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/HibernatePractice/Instructor_detail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/TestHibernate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/TestQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/TestQueryDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/TestQueryUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/validation/AnnotationNumberOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/validation/AnnotationNumberOneConstraintValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/validation/CourseCodeConstraintValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/EagerVsLazy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/EagerLazyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/CreateCoursesOneToMany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/DeleteInstructorCoursesOneToMany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/GetInstructorCoursesOneToMany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/InstructorDetailManyToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/InstructorManyToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/MainAppDemoOneToMany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/DeleteInstructorDemoOneToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/GetInstructorDemoOneToOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernatePractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HibernatePractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorDetailOneToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorDetailOneToOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/MainAppDemoOneToOne.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_practice/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_practice/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Some_spring" beforeDir="false" afterPath="$PROJECT_DIR$/../Some_spring" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/.idea/artifacts/spring_mvc_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/artifacts/spring_mvc_demo_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/spring-mvc-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/spring-mvc-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/validation/CourseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/validation/CourseCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/src/main/webapp/WEB-INF/view/customerConfirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/webapp/WEB-INF/view/customerConfirmation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/src/main/webapp/WEB-INF/view/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/webapp/WEB-INF/view/customerForm.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/EagerLazyDemo/target/" />
+    <ignored path="$PROJECT_DIR$/HibernatePractice/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,51 +77,28 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="new_schema: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="new_schema: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="instructor: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="new_schema: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="instructor_detail: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/uni/InstructorDetail.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/InstructorDetailManyToOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/uni/Instructor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="425">
+              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
               <folding>
-                <element signature="method#Instructor#0;class#Instructor#0" />
+                <element signature="e#723#724#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/uni/MainAppDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/InstructorManyToOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,53 +107,90 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorDetailOneToOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="30" />
-              <folding>
-                <element signature="e#64#71#0" />
-                <element signature="e#144#147#0" />
-                <element signature="method#InstructorDetail#0;class#InstructorDetail#0" />
-                <element signature="method#setInstructorOneToOne#0;class#InstructorDetailOneToOne#0" />
-                <element signature="method#InstructorDetail#1;class#InstructorDetail#0" />
-              </folding>
+        <entry file="uml://DATABASE/a76a70bd-d64b-4c29-9add-c13c806a0057.SCHEMA:new_schema">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>a76a70bd-d64b-4c29-9add-c13c806a0057.SCHEMA:new_schema</OriginalElement>
+              <nodes>
+                <node x="260.0" y="0.0">a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.user</node>
+                <node x="9.5" y="146.0">a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor</node>
+                <node x="27.5" y="336.0">a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.course</node>
+                <node x="0.0" y="0.0">a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor_detail</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor" target="a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor_detail">
+                  <point x="0.0" y="-70.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.course" target="a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor">
+                  <point x="0.0" y="-48.0" />
+                  <point x="0.0" y="70.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="217.0" y="216.0" />
+              <SelectedNodes>
+                <node>a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.user</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorOneToOne.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/CreateCoursesOneToMany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="187">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/GetInstructorDemoOneToOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/MainAppDemoOneToOne.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/GetInstructorCoursesOneToMany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="20" column="79" lean-forward="true" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+            <state relative-caret-position="221">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://a76a70bd-d64b-4c29-9add-c13c806a0057/schema/new_schema/table/instructor">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://a76a70bd-d64b-4c29-9add-c13c806a0057/schema/new_schema/table/instructor_detail">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/HibernatePractice.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -202,13 +204,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\ЗТЛ\IdeaProjects\HibernatePractice\src\main\java\com\spring\demo</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Instructor_detail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/Instructor_detail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/TestJdbc.java" />
@@ -218,9 +227,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/MainAppDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/instructorOneToOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/MainAppDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorOneToOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/MainAppDemoOneToOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorDetailOneToOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/MainAppDemoOneToOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/GetInstructorDemoOneToOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/DeleteInstructorDemoOneToOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/InstructorOneToMany.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorOneToOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/uni/MainAppDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/InstructorDetailManyToOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/MainAppDemoOneToMany.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/CreateCoursesOneToMany.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/DeleteInstructorCoursesOneToMany.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/Course.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/Learning" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/eagerVsLazy/EagerLazyDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/InstructorManyToOne.java" />
+        <option value="$PROJECT_DIR$/HibernatePractice/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/GetInstructorCoursesOneToMany.java" />
       </list>
     </option>
   </component>
@@ -230,6 +254,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-mvc-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="21" />
@@ -242,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,32 +285,96 @@
               <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oneToMany" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oneToOne" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="uni" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576847874914" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577441818455" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spring.demo.eagerVsLazy" />
+      <recent name="com.spring.demo.oneToMany" />
       <recent name="com.spring.demo.oneToOne" />
       <recent name="com.spring.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ЗТЛ\IdeaProjects\HibernatePractice" />
       <recent name="C:\Users\ЗТЛ\IdeaProjects\HibernatePractice\src\main\java\com\spring\demo\oneToOne" />
       <recent name="C:\Users\ЗТЛ\IdeaProjects\HibernatePractice\src\main\resources" />
       <recent name="C:\Users\ЗТЛ\IdeaProjects\HibernatePractice\src\main\java" />
@@ -292,9 +392,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainAppDemo">
-    <configuration name="MainAppDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.demo.uni.MainAppDemo" />
+  <component name="RunManager" selected="Application.GetInstructorCoursesOneToMany">
+    <configuration name="CreateCoursesOneToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.demo.oneToMany.CreateCoursesOneToMany" />
+      <module name="HibernatePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.demo.oneToMany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteInstructorCoursesOneToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.demo.oneToMany.DeleteInstructorCoursesOneToMany" />
+      <module name="HibernatePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.demo.oneToMany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetInstructorCoursesOneToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.demo.oneToMany.GetInstructorCoursesOneToMany" />
+      <module name="HibernatePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.demo.oneToMany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetInstructorDemoOneToOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.demo.oneToOne.GetInstructorDemoOneToOne" />
       <module name="HibernatePractice" />
       <extension name="coverage">
         <pattern>
@@ -306,12 +445,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.demo.TestJdbc" />
+    <configuration name="MainAppDemoOneToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.demo.oneToMany.MainAppDemoOneToMany" />
       <module name="HibernatePractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.demo.oneToOne.*" />
+          <option name="PATTERN" value="com.spring.demo.oneToMany.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,8 +460,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainAppDemo" />
-        <item itemvalue="Application.TestJdbc" />
+        <item itemvalue="Application.GetInstructorCoursesOneToMany" />
+        <item itemvalue="Application.GetInstructorDemoOneToOne" />
+        <item itemvalue="Application.DeleteInstructorCoursesOneToMany" />
+        <item itemvalue="Application.CreateCoursesOneToMany" />
+        <item itemvalue="Application.MainAppDemoOneToMany" />
       </list>
     </recent_temporary>
   </component>
@@ -337,29 +479,44 @@
       <option name="presentableId" value="Default" />
       <updated>1576737459287</updated>
       <workItem from="1576737468132" duration="7615000" />
-      <workItem from="1576825257876" duration="6759000" />
+      <workItem from="1576825257876" duration="6922000" />
+      <workItem from="1577079158381" duration="14157000" />
+      <workItem from="1577166707153" duration="1308000" />
+      <workItem from="1577185967007" duration="1552000" />
+      <workItem from="1577187870169" duration="2605000" />
+      <workItem from="1577256940512" duration="4989000" />
+      <workItem from="1577425892998" duration="4693000" />
+      <workItem from="1577434069459" duration="2834000" />
     </task>
+    <task id="LOCAL-00001" summary="11&#10;1">
+      <created>1576847973748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576847973748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14374000" />
+    <option name="totallyTimeSpent" value="46675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.2647504" />
+      <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.2647504" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" side_tool="true" />
+      <window_info id="Persistence" order="3" sideWeight="0.50121653" side_tool="true" weight="0.2647504" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info id="Learn" order="8" />
+      <window_info id="Learn" order="8" weight="0.33509833" />
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -367,47 +524,34 @@
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32843137" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.49924356" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49848714" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.28668684" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" visible="true" weight="0.16490166" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11&#10;1" />
+    <option name="LAST_COMMIT_MESSAGE" value="11&#10;1" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a76a70bd-d64b-4c29-9add-c13c806a0057/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/TestJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -423,7 +567,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a76a70bd-d64b-4c29-9add-c13c806a0057/schema/new_schema/table/instructor_detail">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/CascadeType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorOneToOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/uni/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="method#Instructor#0;class#Instructor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/uni/InstructorDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/uni/MainAppDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/DeleteInstructorDemoOneToOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/MainAppDemoOneToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="39" selection-start-line="38" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorDetailOneToOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#64#71#0" />
+            <element signature="method#setInstructorOneToOne#0;class#InstructorDetailOneToOne#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EagerLazyDemo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/DeleteInstructorCoursesOneToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#65#72#0" />
+            <element signature="e#124#127#0" />
+            <element signature="method#Course#0;class#Course#0" />
+            <element signature="method#setInstructorManyToOne#0;class#Course#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/ManyToOne.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a76a70bd-d64b-4c29-9add-c13c806a0057/schema/new_schema/table/course">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -437,84 +692,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/MainAppDemoOneToOne.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorDetailOneToOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-          </folding>
+    <entry file="das://a76a70bd-d64b-4c29-9add-c13c806a0057/schema/new_schema/table/instructor_detail">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/uni/InstructorDetail.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/OneToMany.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorOneToOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/uni/MainAppDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/FetchType.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HibernatePractice/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/InstructorDetailManyToOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding>
+            <element signature="e#723#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/InstructorManyToOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/uni/Instructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="method#Instructor#0;class#Instructor#0" />
-          </folding>
+    <entry file="uml://DATABASE/a76a70bd-d64b-4c29-9add-c13c806a0057.SCHEMA:new_schema">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>a76a70bd-d64b-4c29-9add-c13c806a0057.SCHEMA:new_schema</OriginalElement>
+          <nodes>
+            <node x="260.0" y="0.0">a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.user</node>
+            <node x="9.5" y="146.0">a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor</node>
+            <node x="27.5" y="336.0">a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.course</node>
+            <node x="0.0" y="0.0">a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor_detail</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor" target="a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor_detail">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.course" target="a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.instructor">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="217.0" y="216.0" />
+          <SelectedNodes>
+            <node>a76a70bd-d64b-4c29-9add-c13c806a0057.TABLE:new_schema.user</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorOneToOne.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/GetInstructorDemoOneToOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/TestJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/InstructorDetailOneToOne.java">
+    <entry file="file://$PROJECT_DIR$/HibernatePractice.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#64#71#0" />
-            <element signature="e#144#147#0" />
-            <element signature="method#InstructorDetail#0;class#InstructorDetail#0" />
-            <element signature="method#setInstructorOneToOne#0;class#InstructorDetailOneToOne#0" />
-            <element signature="method#InstructorDetail#1;class#InstructorDetail#0" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToOne/MainAppDemoOneToOne.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="20" column="79" lean-forward="true" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+        <state relative-caret-position="255">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/eagerVsLazy/EagerLazyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/CreateCoursesOneToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/oneToMany/GetInstructorCoursesOneToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -572,12 +877,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>HibernatePractice</last-edited>
+          <last-edited>Web|HibernatePractice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
