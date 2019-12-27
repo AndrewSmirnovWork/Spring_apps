@@ -11,6 +11,7 @@ import java.lang.annotation.Target;
 @Target({ElementType.METHOD, ElementType.FIELD})//where annotation can be used
 @Retention(RetentionPolicy.RUNTIME)//how long will the marked annotation will used\stored
 public @interface CourseCode {
+
     //define default annotation
     String value() default "LUV";
 
@@ -21,6 +22,6 @@ public @interface CourseCode {
     Class<?>[] groups() default {};
 
     //define default payloads
-    Class<? extends Payload[]> payload() default {};
+    Class<? extends Payload>[] payload() default {};
 
 }

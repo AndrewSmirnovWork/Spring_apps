@@ -1,7 +1,10 @@
 package com.spring.demo.mvc.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.LinkedHashMap;
-
+@Entity
+@Table(name = "user")
 public class User {
 
     private String lastName;
