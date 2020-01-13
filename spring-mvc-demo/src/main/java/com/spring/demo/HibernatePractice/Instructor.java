@@ -11,7 +11,7 @@ public class Instructor {
 
     @Column(name = "first_name")
     private String firstName;
-    @Column(name = )
+
     private String lastName;
     private String email;
     @Id

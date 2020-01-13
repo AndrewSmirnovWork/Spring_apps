@@ -15,7 +15,7 @@ public class TestHibernate {
 
         try{
             Student student = new Student("Andrew", "Smirnov", "icar08@yandex.ru");
-            Student student2 = new Student("Mary", "Jane", "MJay@yandex.ru");
+            Student student2 = new Student("Mary", "Jane", "gmail.com");
             Student student3 = new Student("Peter", "Parker", "PP@yandex.ru");
 
             session.beginTransaction();
