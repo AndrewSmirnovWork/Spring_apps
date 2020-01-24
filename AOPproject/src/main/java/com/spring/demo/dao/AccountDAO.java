@@ -1,5 +1,6 @@
 package com.spring.demo.dao;
 
+import com.spring.demo.Account;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -27,7 +28,7 @@ public class AccountDAO {
         this.serviceCode = serviceCode;
     }
 
-    public void addAccount() {
+    public void addAccount(Account theAccount, boolean vipFlag) {
         System.out.println(getClass() + " Adding account to db");
     }
 }

@@ -1,47 +1,53 @@
 package com.spring.demo.aspect;
 
+import com.spring.demo.Account;
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.reflect.MethodSignature;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
+@Order(1)
 public class LoggingAspect {
     //@Before("execution(* com.spring.demo.dao.*.*(..))")
     //any return type
     //any class, only from package com.spring.demo.dao.*
     //any method with any param type
 
+    @Before("com.spring.demo.aspect.AopExpressions.beforeAddDAOPackage()")
+    public void beforeAddAccountAdvice(JoinPoint theJoinPoint) {
+        //display the method signature
+        MethodSignature methodSignature = (MethodSignature) theJoinPoint.getSignature();
+        System.out.println("Method :" + methodSignature);
 
-    @Pointcut("execution(* com.spring.demo.dao.*.*(..))")
-    private void forDAOPackage() {
+        //display method args
+
+        //get args
+        Object[] args = theJoinPoint.getArgs();
+
+        //loop thru args
+        for (Object tempArgs : args) {
+            System.out.println(tempArgs);
+            if (tempArgs instanceof Account) {
+                //downcast and print Account specific stuff
+                Account theAccount = (Account) tempArgs;
+                System.out.println("Account name: " + theAccount.getName());
+                System.out.println("Account level: " + theAccount.getLevel());
+            }
+        }
     }
 
-    @Before("forDAOPackage()")
-    public void beforeAddAccountAdvice() {
-        System.out.println("\n=====>>>Whenever ANY class or ANY method called from DAO Package");
+    @AfterReturning("com.spring.demo.aspect.AopExpressions.afterAddForDaoPackage()")
+    public void afterSucsessfulAdd() {
+        System.out.println("Added!");
     }
-
-    @Before("forDAOPackage()&& !(setter() || getter())")
-    public void performApi() {
-        System.out.println("\n=====>>>Performing API with Getters or Setters");
-    }
-
-    @Pointcut("execution(* com.spring.demo.dao.*.get*(..))")
-    private void getter() {
-    }
-
-    @Pointcut("execution(* com.spring.demo.dao.*.set*(..))")
-    private void setter() {
-    }
-
-    @Before("setter()")
-    public void forDaoPackageSetter() {
-        System.out.println("Calling Setter..");
-    }
-    @Before("getter()")
-    public void forDaoPackageGetter() {
-        System.out.println("Calling Getter...");
+    @AfterThrowing("com.spring.demo.aspect.AopExpressions.afterAddForDaoPackage()")
+    public void afterErrorAdd() {
+        System.out.println("Cannot add");
     }
 }

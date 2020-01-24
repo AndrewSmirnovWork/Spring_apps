@@ -17,9 +17,11 @@ public class demoapp {
 
 
         Account theAccount = new Account();
+        theAccount.setName("Andrew");
+        theAccount.setLevel("High");
 
         //call the AccountDAO methods
-        theAccountDAO.addAccount();
+        theAccountDAO.addAccount(theAccount, true);
         theAccountDAO.setName("foobar");
         theAccountDAO.setServiceCode("silver");
 
