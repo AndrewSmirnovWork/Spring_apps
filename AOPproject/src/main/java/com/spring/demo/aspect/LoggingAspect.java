@@ -43,11 +43,12 @@ public class LoggingAspect {
     }
 
     @AfterReturning("com.spring.demo.aspect.AopExpressions.afterAddForDaoPackage()")
-    public void afterSucsessfulAdd() {
+    public void afterSuccessfulAdd() {
         System.out.println("Added!");
     }
+
     @AfterThrowing("com.spring.demo.aspect.AopExpressions.afterAddForDaoPackage()")
     public void afterErrorAdd() {
-        System.out.println("Cannot add");
+        System.out.println("Error! Can't add right now! Try later...");
     }
 }
