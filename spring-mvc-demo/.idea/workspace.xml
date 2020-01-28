@@ -10,55 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c139b87f-ad9e-4d07-8302-d87abcd7de4f" name="Default Changelist" comment="Spring with some Hibernate practice">
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/EagerVsLazy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/CreateCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/DeleteCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/EagerLazyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/FetchJoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/GetCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/ManyToMany.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/AddCoursesForStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/CreateCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/CreateCourseAndStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/DeleteCoursesForStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/Demoapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/Entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/Entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/Entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/Entity/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/Entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/java/spring/hibernate/demo/GetCoursesForStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ManyToMany/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernatePractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernatePractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernatePractice/HibernatePractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernatePractice/HibernatePractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernatePractice/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernatePractice/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPproject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOPproject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/aspect/AopExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/aspect/AopExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/aspect/ApiAnalyticsAspects.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/aspect/ApiAnalyticsAspects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/aspect/CloudLogAsyncAspects.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/aspect/CloudLogAsyncAspects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOPproject/src/main/java/com/spring/demo/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EagerVsLazy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_practice/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_practice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManyToMany/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ManyToMany/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Some_spring" beforeDir="false" afterPath="$PROJECT_DIR$/../Some_spring" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/88fc43e3-1618-4242-85eb-1746795184b8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/88fc43e3-1618-4242-85eb-1746795184b8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/HibernatePractice/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/HibernatePractice/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestHibernate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestHibernate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -111,64 +78,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestJdbc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customerForm.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" column="37" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebAppInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="119">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,8 +92,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+            <state relative-caret-position="374">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="method#Student#0;class#Student#0" />
+                <element signature="method#Student#1;class#Student#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -188,17 +149,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc-demo.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="714">
+              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestQuery.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="47" selection-start-column="47" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -234,6 +204,7 @@
         <option value="Andrew &lt;icar08@yandex.ru&gt;" />
       </list>
     </option>
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -281,7 +252,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/validation/CourseCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/validation/CourseCodeConstraintValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestQueryUpdate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestQueryDelete.java" />
@@ -290,6 +260,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/HibernatePractice/Instructor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestHibernate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebConfig.java" />
       </list>
     </option>
   </component>
@@ -329,8 +300,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="21" />
-    <option name="width" value="768" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -390,26 +362,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-mvc-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-mvc-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -434,15 +386,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-mvc-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -454,7 +397,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578921003496" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578921107814" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -683,6 +626,13 @@
       <workItem from="1578548583773" duration="905000" />
       <workItem from="1578651287571" duration="2454000" />
       <workItem from="1578894170389" duration="4199000" />
+      <workItem from="1578983112843" duration="3595000" />
+      <workItem from="1579505015526" duration="924000" />
+      <workItem from="1579507066567" duration="91000" />
+      <workItem from="1579507207310" duration="846000" />
+      <workItem from="1579511208017" duration="1541000" />
+      <workItem from="1580105925335" duration="6584000" />
+      <workItem from="1580203343742" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="NE RABOTAET AKUS">
       <created>1573489231389</created>
@@ -772,7 +722,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139497000" />
+    <option name="totallyTimeSpent" value="153263000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,7 +737,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.23600605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.24357034" />
       <window_info id="Structure" order="1" sideWeight="0.501634" side_tool="true" weight="0.23600605" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.50121653" side_tool="true" weight="0.23600605" />
@@ -800,7 +750,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49848714" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4969743" weight="0.36928105" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4969743" weight="0.21732026" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -889,20 +839,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/Documented.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1039,13 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/HibernatePractice/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1063,20 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customerConfirmation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1086,18 +1001,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1120,31 +1023,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/sayHello.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1162,24 +1044,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="289">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customerConfirmation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DI28.4739/CustomerService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
           <folding>
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customerForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-demo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1193,70 +1169,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/TestJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+        <state relative-caret-position="374">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-demo.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="method#Student#0;class#Student#0" />
+            <element signature="method#Student#1;class#Student#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/controller/CustomerController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customerForm.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/entity/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/demo/mvc/config/WebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1315,12 +1263,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-mvc-demo</last-edited>
+          <last-edited>Hibernate|spring-mvc-demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

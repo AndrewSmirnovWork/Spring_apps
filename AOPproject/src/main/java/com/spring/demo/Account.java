@@ -3,9 +3,14 @@ package com.spring.demo;
 public class Account {
     private String name;
     private String level;
-    private boolean vipFlag;
-
+    
+    
     public Account() {
+    }
+
+    public Account(String name, String level) {
+        this.name = name;
+        this.level = level;
     }
 
     public String getName() {
@@ -24,11 +29,11 @@ public class Account {
         this.level = level;
     }
 
-    public boolean isVipFlag() {
-        return vipFlag;
-    }
-
-    public void setVipFlag(boolean vipFlag) {
-        this.vipFlag = vipFlag;
+    @Override
+    public String toString() {
+        return "Account{" +
+                "name='" + name + '\'' +
+                ", level='" + level + '\'' +
+                '}';
     }
 }

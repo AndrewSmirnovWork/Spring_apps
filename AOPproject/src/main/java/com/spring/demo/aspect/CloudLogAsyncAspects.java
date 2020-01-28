@@ -14,6 +14,7 @@ public class CloudLogAsyncAspects {
     public void logToCloudAsync() {
         System.out.println("\nLogging to Cloud in async fashion");
     }
+
     @Before("com.spring.demo.aspect.AopExpressions.setter()")
     public void forDaoPackageSetter() {
         System.out.println("\nCalling Setter..");

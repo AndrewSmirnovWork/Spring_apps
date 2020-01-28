@@ -12,6 +12,7 @@ public class AopExpressions {
     @Pointcut("execution(* com.spring.demo.dao.*.*(..))")
     public void forDAOPackage() {
     }
+
     @Pointcut("execution(* com.spring.demo.dao.*.add*(..))")
     public void beforeAddDAOPackage() {
     }

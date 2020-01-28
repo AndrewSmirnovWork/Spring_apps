@@ -2,13 +2,12 @@ package com.spring.demo.aspect;
 
 import com.spring.demo.Account;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.AfterThrowing;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
+
+import java.util.List;
 
 @Aspect
 @Component
@@ -42,13 +41,40 @@ public class LoggingAspect {
         }
     }
 
-    @AfterReturning("com.spring.demo.aspect.AopExpressions.afterAddForDaoPackage()")
-    public void afterSuccessfulAdd() {
-        System.out.println("Added!");
+    @AfterReturning(
+            pointcut = "execution(* com.spring.demo.dao.AccountDAO.findAccounts(..))",
+            returning = "result")
+    public void afterSuccessfulAdd(JoinPoint joinpoint, List<Account> result) {
+        String method = joinpoint.getSignature().toShortString();
+        System.out.println("\n====>>> result is: " + result );
+        convertAccountNamesToUpperCase(result);
     }
 
-    @AfterThrowing("com.spring.demo.aspect.AopExpressions.afterAddForDaoPackage()")
-    public void afterErrorAdd() {
-        System.out.println("Error! Can't add right now! Try later...");
+    private void convertAccountNamesToUpperCase(List<Account> result) {
+        //loop through accounts
+        for (Account tempAcc : result) {
+
+            //get uppercase version of name
+            String upperName = tempAcc.getName().toUpperCase();
+
+            //update the name of the accounts
+            tempAcc.setName(upperName);
+        }
+
+
     }
+
+    @AfterThrowing(pointcut = "execution(* com.spring.demo.dao.AccountDAO.findAccounts(..))",
+                    throwing = "theExc")
+    public void afterErrorAdd(JoinPoint joinPoint, Throwable theExc) {
+        //print out method
+        //log the exception
+        System.out.println("\nThe exception is: " + theExc);
+    }
+
+    @After("execution(* com.spring.demo.dao.AccountDAO.findAccounts(..))")
+    public void afterAnyConditions() {
+
+    }
+
 }

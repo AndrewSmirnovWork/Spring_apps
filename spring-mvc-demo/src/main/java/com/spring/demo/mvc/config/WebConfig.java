@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.spring.demo.mvc.controller")
+@ComponentScan(basePackages = "com.spring.demo.mvc")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     /*@Bean

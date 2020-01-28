@@ -2,55 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c94a08e0-36ac-4fe8-be61-3c8276b2862d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/EagerVsLazy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/CreateCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/DeleteCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/EagerLazyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/FetchJoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/GetCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EagerVsLazy/src/main/java/com/spring/demo/Entity/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManyToMany.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/AddCoursesForStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/CreateCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/CreateCourseAndStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/DeleteCoursesForStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/Demoapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/Entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/Entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/Entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/Entity/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/Entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/hibernate/demo/GetCoursesForStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernatePractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernatePractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernatePractice/HibernatePractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernatePractice/HibernatePractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernatePractice/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernatePractice/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_practice/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_practice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Some_spring" beforeDir="false" afterPath="$PROJECT_DIR$/../Some_spring" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/.idea/dataSources/88fc43e3-1618-4242-85eb-1746795184b8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/dataSources/88fc43e3-1618-4242-85eb-1746795184b8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/HibernatePractice/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/HibernatePractice/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/TestHibernate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo/src/main/java/com/spring/demo/mvc/TestHibernate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -276,7 +231,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578921003403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578921113617" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -378,16 +333,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578893364645</updated>
-      <workItem from="1578893369551" duration="9112000" />
+      <workItem from="1578893369551" duration="9119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9112000" />
+    <option name="totallyTimeSpent" value="9119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
@@ -410,7 +364,7 @@
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.34640524" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
