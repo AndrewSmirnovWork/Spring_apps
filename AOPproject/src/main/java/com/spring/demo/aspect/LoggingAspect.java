@@ -5,6 +5,7 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
@@ -12,6 +13,7 @@ import java.util.List;
 
 @Aspect
 @Component
+@EnableAspectJAutoProxy
 @Order(1)
 public class LoggingAspect {
     //@Before("execution(* com.spring.demo.dao.*.*(..))")
@@ -89,8 +91,12 @@ public class LoggingAspect {
         String method = proceedingJoinPoint.getSignature().toShortString();
         System.out.println("\n=====>>> Executing @Around on method: " + method);
 
-        Object result = proceedingJoinPoint.proceed();
-
-        return result;
+        try {
+            Object result = proceedingJoinPoint.proceed();
+            return result;
+        } catch (Exception exp) {
+            System.out.println("There is a problem");
+            throw exp;
+        }
     }
 }

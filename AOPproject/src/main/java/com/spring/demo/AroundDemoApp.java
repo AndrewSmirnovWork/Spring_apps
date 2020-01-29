@@ -14,8 +14,6 @@ public class AroundDemoApp {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(SpringConfig.class);
 
-        AccountDAO theAccountDAO = context.getBean("accountDAO" ,AccountDAO.class);
-
         TrafficServiceFortune trafficServiceFortune = context.getBean("trafficServiceFortune", TrafficServiceFortune.class);
 
         System.out.println("\nMain Program: AroundDemoApp");
