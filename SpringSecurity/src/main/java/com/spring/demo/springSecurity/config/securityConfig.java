@@ -27,16 +27,18 @@ public class securityConfig extends WebSecurityConfigurerAdapter {
                 .withUser(users.username("mary").password("test123").roles("MANAGER"))
                 .withUser(users.username("susan").password("test123").roles("ADMIN"));
     }
-
+    //for custom login page
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
                 .anyRequest().authenticated()
                 .and()
-                .formLogin()
-                .loginPage("/myLoginPage")
-                .loginProcessingUrl("/authenticateTheUser")
-                .permitAll();
+                    .formLogin()
+                    .loginPage("/showMyLoginPage")
+                    .loginProcessingUrl("/authenticateTheUser")
+                    .permitAll()
+                .and()
+                    .logout().permitAll();
     }
 }
 
