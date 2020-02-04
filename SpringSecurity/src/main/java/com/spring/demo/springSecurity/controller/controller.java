@@ -1,4 +1,14 @@
-package com.spring.demo.springsecurity.config;
+package com.spring.demo.springSecurity.controller;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
 public class controller {
+
+    @GetMapping("/")
+    public String showHome() {
+        return "home";
+    }
+
 }

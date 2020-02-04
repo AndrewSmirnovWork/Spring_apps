@@ -9,11 +9,9 @@
   <packaging>war</packaging>
 
   <name>SpringSecurity Maven Webapp</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
 
   <properties>
-    <springframework.version>5.2.3.RELEASE</springframework.version>
+    <springframework.version>5.2.1.RELEASE</springframework.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -27,8 +25,20 @@
         <artifactId>spring-webmvc</artifactId>
         <version>${springframework.version}</version>
       </dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-web</artifactId>
+      <version>5.2.1.RELEASE</version>
+    </dependency>
+      <dependency>
+          <groupId>org.springframework.security</groupId>
+          <artifactId>spring-security-config</artifactId>
+          <version>5.2.1.RELEASE</version>
+      </dependency>
 
-      <!-- Servlet, JSP and JSTL support -->
+
+    <!-- Servlet, JSP and JSTL support -->
       <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>javax.servlet-api</artifactId>
@@ -47,11 +57,22 @@
         <version>1.2</version>
       </dependency>
 
+
       <!-- to compensate for java 9+ not including jaxb -->
       <dependency>
-        <groupId>javax.xml.bind</groupId>
-        <artifactId>jaxb-api</artifactId>
-        <version>2.3.0</version>
+          <groupId>com.sun.xml.bind</groupId>
+          <artifactId>jaxb-core</artifactId>
+          <version>2.3.0.1</version>
+      </dependency>
+      <dependency>
+          <groupId>javax.xml.bind</groupId>
+          <artifactId>jaxb-api</artifactId>
+          <version>2.3.1</version>
+      </dependency>
+      <dependency>
+          <groupId>com.sun.xml.bind</groupId>
+          <artifactId>jaxb-impl</artifactId>
+          <version>2.3.1</version>
       </dependency>
 
       <dependency>
@@ -98,4 +119,5 @@
       </plugins>
     </pluginManagement>
   </build>
+
 </project>
