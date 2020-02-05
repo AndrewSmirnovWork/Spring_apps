@@ -1,4 +1,4 @@
-package com.spring.demo.springsecurity.config;
+package com.spring.demo.springSecurity.controller;
 
 public class controller {
 }
