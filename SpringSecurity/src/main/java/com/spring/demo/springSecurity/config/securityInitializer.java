@@ -1,4 +1,10 @@
 package com.spring.demo.springSecurity.config;
 
-public class securityInitializer {
+
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+
+public class securityInitializer extends AbstractSecurityWebApplicationInitializer {
+
 }
+
