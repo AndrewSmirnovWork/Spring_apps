@@ -38,7 +38,7 @@ public class springConfig {
         ComboPooledDataSource pooledDataSource = new ComboPooledDataSource();
 
         try {
-            pooledDataSource.setDriverClass("jdbc.driver");
+            pooledDataSource.setDriverClass(env.getProperty("jdbc.driver"));
         } catch (PropertyVetoException exc) {
             throw new RuntimeException(exc);
         }
