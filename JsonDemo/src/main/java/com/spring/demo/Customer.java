@@ -1,5 +1,10 @@
 package com.spring.demo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import java.util.Arrays;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Customer {
 
     private int id;
@@ -60,5 +65,17 @@ public class Customer {
 
     public void setLanguages(String[] languages) {
         this.languages = languages;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", active=" + active +
+                ", \naddress=" + address +
+                ", \nlanguages=" + Arrays.toString(languages) +
+                '}';
     }
 }

@@ -9,11 +9,12 @@ public class Driver {
     public static void main(String[] args) {
 
         ObjectMapper objectMapper = new ObjectMapper();
-
+        Customer customer = null;
         try {
-            Customer customer = objectMapper.readValue(new File("data/sample.json"), Customer.class);
+            customer = objectMapper.readValue(new File("data/sample.json"), Customer.class);
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println(customer);
     }
 }

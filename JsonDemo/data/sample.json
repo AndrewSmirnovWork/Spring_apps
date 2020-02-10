@@ -10,5 +10,6 @@
 		"zip": "19403",
 		"country": "USA"
 	},
-	"languages" : ["Java", "C#", "Python", "Javascript"]
+	"languages" : ["Java", "C#", "Python", "Javascript"],
+	"company" : "Ame Inc"
 }
