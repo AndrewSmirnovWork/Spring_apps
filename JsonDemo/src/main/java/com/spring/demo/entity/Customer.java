@@ -1,4 +1,4 @@
-package com.spring.demo;
+package com.spring.demo.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -17,6 +17,11 @@ public class Customer {
     private String[] languages;
 
     public Customer() {
+    }
+
+    public Customer(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
     public int getId() {

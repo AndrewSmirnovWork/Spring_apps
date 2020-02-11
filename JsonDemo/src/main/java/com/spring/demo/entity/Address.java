@@ -1,4 +1,4 @@
-package com.spring.demo;
+package com.spring.demo.entity;
 
 public class Address {
 

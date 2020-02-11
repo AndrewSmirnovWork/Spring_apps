@@ -1,6 +1,7 @@
 package com.spring.demo;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.spring.demo.entity.Customer;
 
 import java.io.File;
 import java.io.IOException;
