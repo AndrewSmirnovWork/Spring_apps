@@ -18,6 +18,11 @@ public class RestfulController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "Hello world! Time on server " + LocalDateTime.now();
+        return "Hello " + coachName + "! Time on server " + LocalDateTime.now();
+    }
+
+    @GetMapping("/test1")
+    public String test() {
+        return "Another useless link here";
     }
 }
