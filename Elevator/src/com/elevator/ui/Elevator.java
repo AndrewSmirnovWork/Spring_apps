@@ -1,4 +1,4 @@
-package com.elevator;
+package com.elevator.ui;
 
 
 import com.elevator.states.State;
@@ -17,7 +17,11 @@ public class Elevator {
     // Что если лифт едет не на первый этаж, а выше\ниже? пока сделаем вид что он едет всегда на первый этаж
     private State state;
 
+    //можно сделать через switch:
+    //up, down, waiting
     private boolean movingUp;
+    private boolean waiting; //чтобы не использовать Thread.sleep
+
 
     private int currentFloor;
 
@@ -30,9 +34,23 @@ public class Elevator {
         currentFloor = 1;
     }
 
+    public int moving() {
+        if(this.movingUp){
+            setCurrentFloor(this.currentFloor++);
+        }else this.setCurrentFloor(this.currentFloor++);
+        return currentFloor;
+    }
     public ArrayList<Integer> addingAnotherFloor(int nextFloor) {
         queue.add(nextFloor);
         return queue;
+    }
+
+    public boolean isWaiting() {
+        return waiting;
+    }
+
+    public void setWaiting(boolean waiting) {
+        this.waiting = waiting;
     }
 
     public int getDestinationFloor() {

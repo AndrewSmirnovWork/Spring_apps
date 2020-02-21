@@ -1,6 +1,6 @@
 package com.elevator.states;
 
-import com.elevator.Elevator;
+import com.elevator.ui.Elevator;
 
 //current elevator states
 public abstract class State {
@@ -10,7 +10,7 @@ public abstract class State {
         this.elevator = elevator;
     }
 
-    public abstract String OnMove();// лифт в движении 10 секунд
+    public abstract String onMove();// лифт в движении 10 секунд
 
     public abstract String onStop();// лифт стоит 2 секунды
 
