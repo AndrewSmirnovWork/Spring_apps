@@ -6,7 +6,7 @@ import com.elevator.ui.UI;
 public class Main {
 
     public static void main(String[] args) {
-        Elevator elevator = new Elevator();
+        Elevator elevator = Elevator.getInstance();
         UI ui = new UI(elevator);
         ui.init();
 	// write your code here

@@ -10,7 +10,7 @@ public abstract class State {
         this.elevator = elevator;
     }
 
-    public abstract String onMove();// лифт в движении 10 секунд
+    public abstract void onMove();// лифт в движении 10 секунд
 
     public abstract String onStop();// лифт стоит 2 секунды
 

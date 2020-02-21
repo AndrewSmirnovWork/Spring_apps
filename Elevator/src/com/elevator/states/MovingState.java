@@ -10,42 +10,33 @@ public class MovingState extends State {
         super(elevator);
         System.out.println("Creating moving state");
         elevator.setWaiting(false);
-        //10 sek
-        try {
-            while (elevator.getCurrentFloor() != elevator.getDestinationFloor()) {
-                Thread.sleep(1000);//пока хз как сделать по другому
-                System.out.println("waited 10 sek");
-                elevator.setCurrentFloor(elevator.getCurrentFloor() + 1);
-            }
-            System.out.println("calling onStop");
-            this.onStop();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        onMove();
     }
 
     @Override
-    public String onMove() {
-        //находится в движении
-        return "Locked, already moving";
+    public void onMove() {
+        elevator.moving();
+        System.out.println("calling onStop");
+        this.onStop();
     }
 
     @Override
     public String onStop() {
-        //останавливается если прошло 10 сек И если на находится на нужном(нажатом) этаже
-        //если нет, то едет дальше??
+
         if (elevator.getCurrentFloor() == elevator.getDestinationFloor()) {
             System.out.println("calling stop state inside if");
             elevator.setState(new StoppedState(elevator));
         } else {
             System.out.println("calling moving state inside if");
             elevator.setState(new MovingState(elevator));
+            return "Stopped";
         }
-        return "Still moving...";
+        return "Stop";
     }
 
     @Override
     public String onStart() {
+        elevator.setState(new StoppedState(elevator));
         //не может стартовать т.к. двигается
         return "Locked, still moving";
     }
