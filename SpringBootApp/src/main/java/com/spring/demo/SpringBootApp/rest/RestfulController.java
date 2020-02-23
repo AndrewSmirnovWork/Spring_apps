@@ -37,7 +37,7 @@ public class RestfulController {
     public Employee getEmployee(@PathVariable int id) {
 
         Employee employee = employeeService.findById(id);
-        if(employee == null) throw new EmployeeNotFoundException(" Wrong employee" + id );
+        if(employee == null) throw new EmployeeNotFoundException(" Wrong employee " + id );
         return employee;
     }
     @PostMapping("/employees")
@@ -47,7 +47,7 @@ public class RestfulController {
         return employee;
     }
 
-    @DeleteMapping("/employees")
+    @DeleteMapping("/employees/{id}")
     public String deleteEmployee(@PathVariable int id) {
         Employee employee = employeeService.findById(id);
         if (employee ==null) throw new EmployeeNotFoundException("Wrong employee " + id);
