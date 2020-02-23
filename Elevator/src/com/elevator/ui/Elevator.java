@@ -83,7 +83,6 @@ public class Elevator {
         this.movingUp = movingUp;
     }
 
-
     public int getCurrentFloor() {
         return currentFloor;
     }
