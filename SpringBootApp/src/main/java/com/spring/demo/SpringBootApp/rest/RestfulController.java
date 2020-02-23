@@ -1,12 +1,18 @@
 package com.spring.demo.SpringBootApp.rest;
 
+import com.spring.demo.SpringBootApp.dao.EmployeeDAO;
+import com.spring.demo.SpringBootApp.entity.Employee;
+import com.spring.demo.SpringBootApp.exception.EmployeeNotFoundException;
+import com.spring.demo.SpringBootApp.service.EmployeeService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @RestController
+@RequestMapping("/api")
 public class RestfulController {
 
     @Value("${coach.name}")
@@ -15,14 +21,39 @@ public class RestfulController {
     @Value("${team.name}")
     private String teamName;
 
+    private EmployeeService employeeService;
 
-    @GetMapping("/")
-    public String sayHello() {
-        return "Hello " + coachName + "! Time on server " + LocalDateTime.now();
+    @Autowired
+    public RestfulController(EmployeeService employeeService) {
+        this.employeeService = employeeService;
     }
 
-    @GetMapping("/test1")
-    public String test() {
-        return "Another useless link here";
+    @GetMapping("/employees")
+    public List<Employee> getEmployees() {
+        return employeeService.getAllEmployees();
     }
+
+    @GetMapping("/employees/{id}")
+    public Employee getEmployee(@PathVariable int id) {
+
+        Employee employee = employeeService.findById(id);
+        if(employee == null) throw new EmployeeNotFoundException(" Wrong employee" + id );
+        return employee;
+    }
+    @PostMapping("/employees")
+    public Employee addEmployee(@RequestBody Employee employee) {
+        employee.setId(0);
+        employeeService.saveEmployee(employee);
+        return employee;
+    }
+
+    @DeleteMapping("/employees")
+    public String deleteEmployee(@RequestParam int id) {
+        Employee employee = employeeService.findById(id);
+        if (employee ==null) throw new EmployeeNotFoundException("Wrong employee " + id);
+        employeeService.deleteEmployee(id);
+        return "Employee deleted";
+    }
+
+
 }
