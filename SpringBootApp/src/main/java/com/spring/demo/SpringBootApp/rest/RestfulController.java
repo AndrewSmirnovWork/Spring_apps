@@ -48,7 +48,7 @@ public class RestfulController {
     }
 
     @DeleteMapping("/employees")
-    public String deleteEmployee(@RequestParam int id) {
+    public String deleteEmployee(@PathVariable int id) {
         Employee employee = employeeService.findById(id);
         if (employee ==null) throw new EmployeeNotFoundException("Wrong employee " + id);
         employeeService.deleteEmployee(id);
