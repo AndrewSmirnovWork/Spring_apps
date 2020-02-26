@@ -5,12 +5,12 @@ import com.spring.demo.SpringBootApp.entity.Employee;
 import java.util.List;
 
 public interface EmployeeService {
-    public List<Employee> getAllEmployees();
+    public List<Employee> findAll();
 
     public Employee findById(int id);
 
-    public void saveEmployee(Employee employee);
+    public void save(Employee employee);
 
-    public void deleteEmployee(int id);
+    public void deleteById(int id);
 }
 

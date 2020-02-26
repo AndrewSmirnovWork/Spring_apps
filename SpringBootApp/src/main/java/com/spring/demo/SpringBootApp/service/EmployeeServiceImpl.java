@@ -1,45 +1,55 @@
 package com.spring.demo.SpringBootApp.service;
 
 import com.spring.demo.SpringBootApp.dao.EmployeeDAO;
+import com.spring.demo.SpringBootApp.dao.jpa.EmployeeRepository;
 import com.spring.demo.SpringBootApp.entity.Employee;
+import com.spring.demo.SpringBootApp.exception.EmployeeNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
 
-    private EmployeeDAO employeeDAO;
+    private EmployeeRepository employeeRepository;
 
     @Autowired
-    public EmployeeServiceImpl(EmployeeDAO employeeDAO) {
-        this.employeeDAO = employeeDAO;
+    public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
     }
 
-    @Transactional
+
     @Override
-    public List<Employee> getAllEmployees() {
-        return employeeDAO.getAllEmployees();
+    public List<Employee> findAll() {
+        return employeeRepository.findAll();
     }
 
-    @Transactional
+
     @Override
     public Employee findById(int id) {
-        return employeeDAO.findById(id);
+        Optional<Employee> employee = employeeRepository.findById(id);
+        Employee emp = null;
+
+        if (employee.isPresent()) {
+            emp = employee.get();
+        }else {
+            // we didn't find the employee
+            throw new EmployeeNotFoundException("Did not find employee id - " + id);
+        }
+        return emp;
     }
 
-    @Transactional
     @Override
-    public void saveEmployee(Employee employee) {
-        employeeDAO.saveEmployee(employee);
+    public void save(Employee employee) {
+        employeeRepository.save(employee);
     }
 
-    @Transactional
+
     @Override
-    public void deleteEmployee(int id) {
-        employeeDAO.deleteEmployee(id);
+    public void deleteById(int id) {
+        employeeRepository.deleteById(id);
     }
 }

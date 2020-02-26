@@ -4,25 +4,16 @@ import com.spring.demo.SpringBootApp.dao.EmployeeDAO;
 import com.spring.demo.SpringBootApp.entity.Employee;
 import com.spring.demo.SpringBootApp.exception.EmployeeNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
 
 @Repository
-@Primary
 public class EmployeeDAOJpaImpl implements EmployeeDAO {
 
     EntityManager entityManager;
-
-    public static void main(String[] args) {
-        String s = null;
-        s += " ";
-        System.out.println(s);
-    }
 
     @Autowired
     public EmployeeDAOJpaImpl(EntityManager entityManager) {
@@ -51,8 +42,8 @@ public class EmployeeDAOJpaImpl implements EmployeeDAO {
 
     @Override
     public void saveEmployee(Employee employee) {
-        Employee empl = entityManager.merge(employee);
-        employee.setId(empl.getId());
+        Employee theEmployee = entityManager.merge(employee);
+        employee.setId(theEmployee.getId());
     }
 
     @Override

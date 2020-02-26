@@ -1,6 +1,5 @@
 package com.spring.demo.SpringBootApp.rest;
 
-import com.spring.demo.SpringBootApp.dao.EmployeeDAO;
 import com.spring.demo.SpringBootApp.entity.Employee;
 import com.spring.demo.SpringBootApp.exception.EmployeeNotFoundException;
 import com.spring.demo.SpringBootApp.service.EmployeeService;
@@ -8,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -30,7 +28,7 @@ public class RestfulController {
 
     @GetMapping("/employees")
     public List<Employee> getEmployees() {
-        return employeeService.getAllEmployees();
+        return employeeService.findAll();
     }
 
     @GetMapping("/employees/{id}")
@@ -43,7 +41,7 @@ public class RestfulController {
     @PostMapping("/employees")
     public Employee addEmployee(@RequestBody Employee employee) {
         employee.setId(0);
-        employeeService.saveEmployee(employee);
+        employeeService.save(employee);
         return employee;
     }
 
@@ -51,7 +49,7 @@ public class RestfulController {
     public String deleteEmployee(@PathVariable int id) {
         Employee employee = employeeService.findById(id);
         if (employee ==null) throw new EmployeeNotFoundException("Wrong employee " + id);
-        employeeService.deleteEmployee(id);
+        employeeService.deleteById(id);
         return "Employee deleted";
     }
 
